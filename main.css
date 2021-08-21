@@ -10,12 +10,14 @@
 
 .header {
     padding: 100px 0;
+    padding-top: 0;
     font-size: 48px;
     font-weight: 700;
     color: beige;
     font-family: sans-serif;
     background-color: darkseagreen;
     text-align: center;
+    
 }
 
 .heading {
@@ -24,4 +26,19 @@
 
 .text {
     font-size: 24px;
+}
+
+.header-menu{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 188, 77);
+}
+
+.header-banner{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
